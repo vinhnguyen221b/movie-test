@@ -9,6 +9,9 @@
     "build": "webpack --config webpack.prod.js",
     "heroku-postbuild": "npm install && npm run build"
   },
+  "engines": {
+    "node": "12.18.2"
+  },
   "keywords": [],
   "author": "Vinh Nguyen",
   "license": "ISC",
